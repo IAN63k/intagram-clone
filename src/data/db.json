@@ -1,0 +1,115 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "Sebastian Mojica",
+            "imgUrl": "https://avatars.githubusercontent.com/u/167829271?v=4",
+            "correo": "sebastian@mail.com",
+            "clave": "sebastian123",
+            "descripcion": "Hola Bienvenidos a mi perfil",
+            "seguidores": 100,
+            "likes": 100,
+            "seguidos": [
+                "Luisa Cabrera",
+                "Julian Ortiz"
+            ],
+            "posteos": [
+                {
+                    "id": 1,
+                    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg/800px-Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 5,
+                    "comentarios": []
+                },
+                {
+                    "id": 2,
+                    "imgUrl": "https://www.vogue.mx/estilo-de-vida/articulo/jennie-kim-biografia",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 3,
+                    "comentarios": []
+                },
+                {
+                    "id": 3,
+                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 1,
+                    "comentarios": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Luisa Cabrera",
+            "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
+            "correo": "luisa@mail.com",
+            "clave": "luisa123",
+            "descripcion": "Lorem ipsum dolor sit amet.",
+            "seguidores": 10,
+            "likes": 80,
+            "seguidos": [
+                "Sebastian Mojica",
+                "Julian Ortiz"
+            ],
+            "posteos": [
+                {
+                    "id": 1,
+                    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg/800px-Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 2,
+                    "comentarios": []
+                },
+                {
+                    "id": 2,
+                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 10,
+                    "comentarios": []
+                },
+                {
+                    "id": 3,
+                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 8,
+                    "comentarios": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Julian Ortiz",
+            "img": "https://avatars.githubusercontent.com/u/81268917?v=4",
+            "correo": "julian@mail.com",
+            "clave": "julian123",
+            "descripcion": "Lorem ipsum dolor sit amet",
+            "seguidores": 80,
+            "likes": 30,
+            "seguidos": [
+                "Sebastian Mojica",
+                "Luisa Cabrera"
+            ],
+            "posteos": [
+                {
+                    "id": 1,
+                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 8,
+                    "comentarios": []
+                },
+                {
+                    "id": 2,
+                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 2,
+                    "comentarios": []
+                },
+                {
+                    "id": 3,
+                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
+                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
+                    "likes": 9,
+                    "comentarios": []
+                }
+            ]
+        }
+    ]
+}
