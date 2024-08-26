@@ -12,6 +12,7 @@ import { FiMessageCircle } from 'react-icons/fi'
 import { BsSend } from 'react-icons/bs'
 import { GrSave } from 'react-icons/gr'
 import { FaRegHeart } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 const HomeApp = () => {
 
@@ -59,7 +60,7 @@ const HomeApp = () => {
                     publicaciones.map(publicacion => {
                         return (
                             <Card style={{ width: '20rem', borderRadius:"15px",overflow:"hidden",backgroundColor:"white" }}>
-                                <Card.Img variant="top" src={publicacion.imgUrl} style={{width:"100%",height:"100%",objectFit:"cover"}}/>
+                                <Link to={`/publicacion/${publicacion.id}`}><Card.Img variant="top" src={publicacion.imgUrl} style={{width:"100%",height:"100%",objectFit:"cover"}}/></Link>
                                 <Card.Body style={{ display: "flex", justifyContent: "space-between", fontSize: "24px" }}>
                                     <div>
                                         <Card.Link href="#" style={{ color: "inherit", margin: "0 10px" }}><FaRegHeart /><span style={{fontSize:"10px",textDecoration:"none"}}>{publicacion.likes}</span></Card.Link>
