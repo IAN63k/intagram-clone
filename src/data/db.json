@@ -4,6 +4,7 @@
             "id": 1,
             "nombre": "Sebastian Mojica",
             "imgUrl": "https://avatars.githubusercontent.com/u/167829271?v=4",
+            "imgHeader": "https://i.imgur.com/wSQAN0D.jpg",
             "correo": "sebastian@mail.com",
             "clave": "sebastian123",
             "descripcion": "Hola Bienvenidos a mi perfil",
@@ -23,7 +24,7 @@
                 },
                 {
                     "id": 2,
-                    "imgUrl": "https://www.vogue.mx/estilo-de-vida/articulo/jennie-kim-biografia",
+                    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg/800px-Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg",
                     "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
                     "likes": 3,
                     "comentarios": []
@@ -41,6 +42,7 @@
             "id": 2,
             "nombre": "Luisa Cabrera",
             "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
+            "imgHeader": "https://i.imgur.com/wSQAN0D.jpg",
             "correo": "luisa@mail.com",
             "clave": "luisa123",
             "descripcion": "Lorem ipsum dolor sit amet.",
@@ -78,6 +80,7 @@
             "id": 3,
             "nombre": "Julian Ortiz",
             "img": "https://avatars.githubusercontent.com/u/81268917?v=4",
+            "imgHeader": "https://i.imgur.com/wSQAN0D.jpg",
             "correo": "julian@mail.com",
             "clave": "julian123",
             "descripcion": "Lorem ipsum dolor sit amet",
@@ -113,3 +116,4 @@
         }
     ]
 }
+
