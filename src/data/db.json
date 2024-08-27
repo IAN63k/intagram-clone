@@ -24,7 +24,7 @@
                 },
                 {
                     "id": 2,
-                    "imgUrl": "https://www.vogue.mx/estilo-de-vida/articulo/jennie-kim-biografia",
+                    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg/800px-Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg",
                     "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
                     "likes": 3,
                     "comentarios": []
@@ -116,3 +116,4 @@
         }
     ]
 }
+

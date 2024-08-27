@@ -1,0 +1,57 @@
+.content{
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecera{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.mensajes{
+    position: relative;
+    float: right;
+}
+
+.cabecera button{
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+}
+
+.historias{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.historias img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.main{
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 15px;
+}
