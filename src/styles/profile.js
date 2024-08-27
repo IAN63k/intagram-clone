@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import Profile from "../components/profile/Profile";
 
-const Header = styled.div`
+const Header = styled.header`
     position: relative;
     background-color: #f9f9f9;
     width: 100%;
-
+    height: 52px;
     nav {
     position: absolute;
     z-index: 1;
@@ -40,14 +40,19 @@ const Header = styled.div`
     }
 
     figure {
+        position: relative;
         width: 100%;
         height: 200px;
         overflow: hidden;
+
         img {
+            position: relative;
             width: 100%;
             height: 100%;
             object-fit: cover;
+            cursor: pointer;
         }
+
     }
     
 `;
@@ -231,6 +236,79 @@ const SectionPhotos = styled.section`
     }
 `;
 
+const MainEdit = styled.main`
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: #fff;
+    flex-wrap: nowrap;
+    width: 100%;
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 10px;
+        width: 100%;
+        border-bottom: 1px solid #ef6361;
+    }
+
+    .form_editProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        margin-top: 1rem;
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            flex-direction: row;
+            width: 100%;
+            padding: 1rem;
+            margin-top: 1rem;
+            span {
+                font-size: 1rem;
+                font-weight: 500;
+                width: 100px;
+                text-align: right;
+            }
+            input {
+                all: unset;
+                width: 100%;
+                padding: 0.5rem;
+                border-radius: 12px;
+                border: 1px solid #ef6361;
+                transition: all 0.3s ease;
+                &:focus {
+                    border: 1px solid #ef6361;
+                    transition: all 0.3s ease;
+                }
+            }
+            textarea {
+                all: unset;
+                width: 100%;
+                padding: 0.5rem;
+                border-radius: 12px;
+                border: 1px solid #ef6361;
+                transition: all 0.3s ease;
+                &:focus {
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+`;
+
+
+
 
 export {
     Header,
@@ -238,5 +316,6 @@ export {
     Container,
     SectionInfo,
     ContainerInfo,
-    SectionPhotos
+    SectionPhotos,
+    MainEdit
 }

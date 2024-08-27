@@ -32,31 +32,26 @@ function Profile(user, posteos) {
                     </ul>
                 </nav>
                 <figure>
-                    {/* <img src={user.imgHeader} alt="Imagen de cabecera" /> */}
-                    <img src="https://cdn.superaficionados.com/imagenes/1-integrantes-de-blackpink-jennie-0-cke.jpg" alt="Imagen de cabecera" />
+                    <img src={(user.imgHeader)? user.imgHeader : "https://static.vecteezy.com/system/resources/previews/004/141/669/non_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg"} alt="Imagen de cabecera" />
+                    
                 </figure>
             </Header>
             <main>
                 <SectionInfo>
                     <ContainerInfo>
                         <div className='div-data'>
-                            {/* <h3>{user.seguidores}</h3> */}
-                            <h3>10.7M</h3>
+                            <h3>{(user.seguidores)? user.seguidores : "0"}</h3>
                             <p>Followers</p>
                         </div>
                         <ProfileInfo>
                             <figure>
-                                {/* <img src="user.imgUrl" alt="user-image" /> */}
-                                <img src="https://i.scdn.co/image/ab6761610000e5ebd95cf4457fac4cc62311f84f" alt="user-image" />
+                                <img src={(user.imgUrl)? user.imgUrl : "https://storage.needpix.com/rsynced_images/instagram-3814049_1280.png"} alt="user-image" />
                             </figure>
-                            {/* <h3>{user.nombre}</h3> */}
-                            <h3>Jennie Kim</h3>
-                            {/* <p id='description'>{user.descripcion}</p> */}
-                            <p id='description'>I'm a member of Blackpink</p>
+                            <h3>{(user.nombre) ? user.nombre : "user name"}</h3>
+                            <p id='description'>{(user.descripcion)? user.descripcion : "No description yep"}</p>
                         </ProfileInfo>
                         <div className='div-data'>
-                            {/* <h3>{user.likes}</h3> */}
-                            <h3>108.3 M</h3>
+                            <h3>{(user.likes)? user.likes : "0"}</h3>
                             <p>likes</p>
                         </div>
                     </ContainerInfo>
