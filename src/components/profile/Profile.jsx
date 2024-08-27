@@ -11,11 +11,11 @@ function Profile(user, posteos) {
 
     const handleFollow = () => {
         console.log('Follow');
-        // user.seguidores += 1;
-        // if (user.seguidos.includes('user')) {
-        //     user.seguidos = user.seguidos.filter(seguido => seguido !== 'user');
-        //     return;
-        // }
+        user.seguidores += 1;
+        if (user.seguidos.includes(user.nombre)) {
+            user.seguidos = user.seguidos.filter(seguido => seguido !== user.nombre);
+            return;
+        }
     }
 
     const handleMessage = () => {
